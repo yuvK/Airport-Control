@@ -1,0 +1,35 @@
+.Table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #3d297a;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+th {
+    background-color: #282297;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #211645;
+}
+
+@media screen and (max-width: 600px) {
+
+    th,
+    td {
+        padding: 8px 10px;
+    }
+}

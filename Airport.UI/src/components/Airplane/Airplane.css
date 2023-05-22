@@ -1,0 +1,19 @@
+.airplaneDepart {
+    height: 30px;
+    width: 30px;
+    background-color: purple;
+    color: yellow;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid yellow;
+}
+
+.airplaneArrive {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    color: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid red;
+}

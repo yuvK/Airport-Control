@@ -1,0 +1,124 @@
+{
+  "Stations": [
+    {
+      "Id": 0,
+      "WaitTime": 1
+    },
+    {
+      "Id": 1,
+      "WaitTime": 1
+    },
+    {
+      "Id": 2,
+      "WaitTime": 1
+    },
+    {
+      "Id": 3,
+      "WaitTime": 2
+    },
+    {
+      "Id": 4,
+      "WaitTime": 3
+    },
+    {
+      "Id": 5,
+      "WaitTime": 2
+    },
+    {
+      "Id": 6,
+      "WaitTime": 2
+    },
+    {
+      "Id": 7,
+      "WaitTime": 2
+    },
+    {
+      "Id": 8,
+      "WaitTime": 2
+    },
+    {
+      "Id": 9,
+      "WaitTime": 2
+    },
+    {
+      "Id": 10,
+      "WaitTime": 0
+    },
+    {
+      "Id": 11,
+      "WaitTime": 0
+    }
+  ],
+  "Edges": [
+    {
+      "From": 0,
+      "To": 1,
+      "IsDeparture": false
+    },
+    {
+      "From": 1,
+      "To": 2,
+      "IsDeparture": false
+    },
+    {
+      "From": 2,
+      "To": 3,
+      "IsDeparture": false
+    },
+    {
+      "From": 3,
+      "To": 4,
+      "IsDeparture": false
+    },
+    {
+      "From": 4,
+      "To": 5,
+      "IsDeparture": false
+    },
+    {
+      "From": 5,
+      "To": 6,
+      "IsDeparture": false
+    },
+    {
+      "From": 5,
+      "To": 7,
+      "IsDeparture": false
+    },
+    {
+      "From": 6,
+      "To": 10,
+      "IsDeparture": false
+    },
+    {
+      "From": 7,
+      "To": 10,
+      "IsDeparture": false
+    },
+    {
+      "From": 11,
+      "To": 7,
+      "IsDeparture": true
+    },
+    {
+      "From": 7,
+      "To": 8,
+      "IsDeparture": true
+    },
+    {
+      "From": 8,
+      "To": 4,
+      "IsDeparture": true
+    },
+    {
+      "From": 4,
+      "To": 9,
+      "IsDeparture": true
+    },
+    {
+      "From": 9,
+      "To": 10,
+      "IsDeparture": true
+    }
+  ]
+}

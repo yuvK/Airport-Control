@@ -1,0 +1,9 @@
+.map {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 400px;
+    background-color: rgb(56, 158, 56);
+    padding:  15px 15px 1px 15px;
+    /* Adjust the height as needed */
+}
