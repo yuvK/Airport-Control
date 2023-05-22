@@ -5,7 +5,7 @@ c# console of simulator to generate airplanes asking to land or depart from airp
 custome graph data structure for stations relations. 
 asp.net core for api controlling the airport.
 db in SQLite for storing passed flights in airport.
-UI in React to represent map and lidt of flights currentrly inside the airport
+UI in React to represent map and list of flights currentrly inside the airport
 
 to run project make sure api and simulator console are running, for ui run: "npm run dev"
 
